@@ -1,0 +1,119 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.topnav {
+  position: fixed;
+  top: 0%;
+  background-color: transparent;
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+.topnav-left {
+  width: 50%;
+}
+
+.topnav-right {
+  width: 50%;
+  text-align: end;
+  margin: 3rem;
+  margin-top: 4rem;
+}
+
+.topnav-right a {
+  margin: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.logo-acme {
+  margin-left: 5rem;
+  margin-top: 3rem;
+  height: 4.5rem;
+}
+
+#shoppingcart {
+  background-color: #EE5F46;
+  width: auto;
+  height: auto;
+  border-radius: 25px;
+  padding: 15px 30px 15px 30px;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: white;
+}
+
+.main-div {
+  height: 100vh;
+  width: auto;
+  background: linear-gradient(183deg, rgba(255, 255, 255, 0) 70%, white 30%), url("/images/coastline.webp");
+  background-size: cover;
+  padding-left: 5rem;
+  overflow-x: hidden;
+  position: relative;
+  z-index: -1;
+  background-color: white;
+}
+
+.main-div-title {
+  width: 100%;
+  height: 60%;
+}
+
+.main-div-title h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px #000;
+  margin-top: 11rem !important;
+}
+
+.div4squares div {
+  position: relative;
+  margin: 0.6rem;
+  background: white;
+  width: 25rem;
+  height: 18rem;
+  box-shadow: -2px 2px 7px 2px rgba(0, 0, 0, 0.37);
+}
+
+.modal-bg {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s;
+}
+
+.bg-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal-right {
+  position: relative;
+  background-color: white;
+  width: 20%;
+  box-shadow: -2px 2px 7px 2px rgba(0, 0, 0, 0.37);
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
